@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.tunable.TestTunablyAggressiveChaosMonkey" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:51" hostname="LAPTOP-4S0PNSIP" time="0.007">
+  <properties/>
+  <testcase name="testFullProbability_basic" classname="com.netflix.simianarmy.tunable.TestTunablyAggressiveChaosMonkey" time="0.004"/>
+  <testcase name="testFullProbability_tuned" classname="com.netflix.simianarmy.tunable.TestTunablyAggressiveChaosMonkey" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

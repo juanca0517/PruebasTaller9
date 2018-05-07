@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.TestSimpleDBRecorder" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:51" hostname="LAPTOP-4S0PNSIP" time="0.034">
+  <properties/>
+  <testcase name="testClients" classname="com.netflix.simianarmy.aws.TestSimpleDBRecorder" time="0.003"/>
+  <testcase name="testFindEvent" classname="com.netflix.simianarmy.aws.TestSimpleDBRecorder" time="0.029"/>
+  <testcase name="testRecordEvent" classname="com.netflix.simianarmy.aws.TestSimpleDBRecorder" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

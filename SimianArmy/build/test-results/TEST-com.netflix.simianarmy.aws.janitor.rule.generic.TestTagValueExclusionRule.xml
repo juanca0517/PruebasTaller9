@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:51" hostname="LAPTOP-4S0PNSIP" time="0.01">
+  <properties/>
+  <testcase name="testExcludeTaggedResourceAllNullTags" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.002"/>
+  <testcase name="testExcludeTaggedResourceTagMatchOnly" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.001"/>
+  <testcase name="testExcludeTaggedResourceValueMatchOnly" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.0"/>
+  <testcase name="testExcludeTaggedResourceWithTagAndValueMatch1" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.0"/>
+  <testcase name="testExcludeTaggedResourceWithTagAndValueMatch2" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.001"/>
+  <testcase name="testExcludeTaggedResourceWithTagAndValueMatchBoth" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.001"/>
+  <testcase name="testExcludeUntaggedResource" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.001"/>
+  <testcase name="testNameValueConstructor" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.0"/>
+  <testcase name="testNameValueConstructor2" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestTagValueExclusionRule" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

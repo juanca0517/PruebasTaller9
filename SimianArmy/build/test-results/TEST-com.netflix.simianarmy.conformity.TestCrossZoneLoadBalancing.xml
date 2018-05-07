@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.conformity.TestCrossZoneLoadBalancing" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:50" hostname="LAPTOP-4S0PNSIP" time="0.003">
+  <properties/>
+  <testcase name="testAsgWithoutElb" classname="com.netflix.simianarmy.conformity.TestCrossZoneLoadBalancing" time="0.001"/>
+  <testcase name="testDisabledCrossZoneLoadBalancing" classname="com.netflix.simianarmy.conformity.TestCrossZoneLoadBalancing" time="0.0"/>
+  <testcase name="testEnabledCrossZoneLoadBalancing" classname="com.netflix.simianarmy.conformity.TestCrossZoneLoadBalancing" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

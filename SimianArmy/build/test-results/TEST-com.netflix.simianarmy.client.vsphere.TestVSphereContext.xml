@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.client.vsphere.TestVSphereContext" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:51" hostname="LAPTOP-4S0PNSIP" time="1.796">
+  <properties/>
+  <testcase name="shouldSetClientOfCorrectType" classname="com.netflix.simianarmy.client.vsphere.TestVSphereContext" time="1.796"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

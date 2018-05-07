@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:24" hostname="LAPTOP-4S0PNSIP" time="0.097">
+  <properties/>
+  <testcase name="testBuildAndSendEmail" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.056"/>
+  <testcase name="testBuildAndSendEmailSubjectIsBody" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.003"/>
+  <testcase name="testInvalidEmailAddresses" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.011"/>
+  <testcase name="testValidEmailAddresses" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.002"/>
+  <testcase name="testbuildEmailBody" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.001"/>
+  <testcase name="testbuildEmailBodyPrefix" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.002"/>
+  <testcase name="testbuildEmailBodyPrefixSuffix" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.001"/>
+  <testcase name="testbuildEmailBodySuffix" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.001"/>
+  <testcase name="testbuildEmailSubject" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.001"/>
+  <testcase name="testbuildEmailSubjectWithSubjectPrefix" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.001"/>
+  <testcase name="testbuildEmailSubjectWithSubjectPrefixSuffix" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.001"/>
+  <testcase name="testbuildEmailSubjectWithSubjectSuffix" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosEmailNotifier" time="0.001"/>
+  <system-out><![CDATA[2018-05-06 01:16:24.582 - ERROR AWSEmailNotifier - [AWSEmailNotifier.java:98] Invalid email address: username
+2018-05-06 01:16:24.583 - ERROR AWSEmailNotifier - [AWSEmailNotifier.java:98] Invalid email address: username@.com.my
+2018-05-06 01:16:24.585 - ERROR AWSEmailNotifier - [AWSEmailNotifier.java:98] Invalid email address: username123@example.a
+2018-05-06 01:16:24.586 - ERROR AWSEmailNotifier - [AWSEmailNotifier.java:98] Invalid email address: username123@.com
+2018-05-06 01:16:24.588 - ERROR AWSEmailNotifier - [AWSEmailNotifier.java:98] Invalid email address: username123@.com.com
+2018-05-06 01:16:24.590 - ERROR AWSEmailNotifier - [AWSEmailNotifier.java:98] Invalid email address: username()*@example.com
+2018-05-06 01:16:24.591 - ERROR AWSEmailNotifier - [AWSEmailNotifier.java:98] Invalid email address: username@%*.com
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

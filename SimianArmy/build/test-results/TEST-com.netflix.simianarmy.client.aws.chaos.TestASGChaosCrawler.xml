@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:20" hostname="LAPTOP-4S0PNSIP" time="0.067">
+  <properties/>
+  <testcase name="testFindAggressionCoefficient" classname="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" time="0.012"/>
+  <testcase name="testFindAggressionCoefficient_null" classname="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" time="0.001"/>
+  <testcase name="testFindAggressionCoefficient_two" classname="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" time="0.0"/>
+  <testcase name="testFindAggressionCoefficient_unparsable" classname="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" time="0.0"/>
+  <testcase name="testGetInstanceGroup_basic" classname="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" time="0.011"/>
+  <testcase name="testGetInstanceGroup_tunable" classname="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" time="0.002"/>
+  <testcase name="testGroupTypes" classname="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" time="0.003"/>
+  <testcase name="testGroups" classname="com.netflix.simianarmy.client.aws.chaos.TestASGChaosCrawler" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.client.vsphere.TestVSphereServiceConnection" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:53" hostname="LAPTOP-4S0PNSIP" time="0.052">
+  <properties/>
+  <testcase name="shouldCallSearchManagedEntitiesOnDescribeWhenAtLeastOneVMIsReturned" classname="com.netflix.simianarmy.client.vsphere.TestVSphereServiceConnection" time="0.018"/>
+  <testcase name="shouldCallSearchManagedEntityAndReturnVMForDoItGetVirtualMachineById" classname="com.netflix.simianarmy.client.vsphere.TestVSphereServiceConnection" time="0.004"/>
+  <testcase name="shouldEncapsulateInvalidPropertyException" classname="com.netflix.simianarmy.client.vsphere.TestVSphereServiceConnection" time="0.007"/>
+  <testcase name="shouldEncapsulateRemoteExceptionException" classname="com.netflix.simianarmy.client.vsphere.TestVSphereServiceConnection" time="0.007"/>
+  <testcase name="shouldEncapsulateRuntimeFaultException" classname="com.netflix.simianarmy.client.vsphere.TestVSphereServiceConnection" time="0.005"/>
+  <testcase name="shouldReturnConfiguredPropertiesAfterConstructedFromConfig" classname="com.netflix.simianarmy.client.vsphere.TestVSphereServiceConnection" time="0.005"/>
+  <testcase name="shouldThrowExceptionWhenCallingSearchManagedEntitiesOnDescribeWhenNoVMsAreReturned" classname="com.netflix.simianarmy.client.vsphere.TestVSphereServiceConnection" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

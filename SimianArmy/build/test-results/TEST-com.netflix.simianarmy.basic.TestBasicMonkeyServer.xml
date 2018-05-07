@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.TestBasicMonkeyServer" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:49" hostname="LAPTOP-4S0PNSIP" time="0.069">
+  <properties/>
+  <testcase name="testServer" classname="com.netflix.simianarmy.basic.TestBasicMonkeyServer" time="0.069"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" tests="13" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:51" hostname="LAPTOP-4S0PNSIP" time="0.021">
+  <properties/>
+  <testcase name="testASGWithInstances" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.004"/>
+  <testcase name="testASGWithoutInstanceAndNonZeroSize" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.001"/>
+  <testcase name="testEmptyASGWithLaunchConfigWithoutCreateTime" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.002"/>
+  <testcase name="testEmptyASGWithObsoleteLaunchConfig" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.002"/>
+  <testcase name="testEmptyASGWithValidLaunchConfig" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.002"/>
+  <testcase name="testEmptyASGWithoutLaunchConfig" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.003"/>
+  <testcase name="testNgativeLaunchConfigAgeThreshold" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.001"/>
+  <testcase name="testNgativeRetentionDays" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.001"/>
+  <testcase name="testNonASGResource" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.0"/>
+  <testcase name="testNullCalendar" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.001"/>
+  <testcase name="testNullResource" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.001"/>
+  <testcase name="testNullValidator" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.0"/>
+  <testcase name="testResourceWithExpectedTerminationTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestOldEmptyASGRule" time="0.003"/>
+  <system-out><![CDATA[2018-05-06 01:16:51.365 - ERROR OldEmptyASGRule - [OldEmptyASGRule.java:126] Failed to find creation time for launch configuration launchConfig
+2018-05-06 01:16:51.371 - ERROR OldEmptyASGRule - [OldEmptyASGRule.java:119] Failed to find launch configuration for ASG asg1
+2018-05-06 01:16:51.379 - ERROR OldEmptyASGRule - [OldEmptyASGRule.java:119] Failed to find launch configuration for ASG asg1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

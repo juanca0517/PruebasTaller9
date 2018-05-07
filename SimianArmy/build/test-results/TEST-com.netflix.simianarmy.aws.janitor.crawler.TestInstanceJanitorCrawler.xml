@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.crawler.TestInstanceJanitorCrawler" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:51" hostname="LAPTOP-4S0PNSIP" time="0.026">
+  <properties/>
+  <testcase name="testInstancesNotExistingInASG" classname="com.netflix.simianarmy.aws.janitor.crawler.TestInstanceJanitorCrawler" time="0.007"/>
+  <testcase name="testInstancesWithIds" classname="com.netflix.simianarmy.aws.janitor.crawler.TestInstanceJanitorCrawler" time="0.004"/>
+  <testcase name="testInstancesWithNullIds" classname="com.netflix.simianarmy.aws.janitor.crawler.TestInstanceJanitorCrawler" time="0.003"/>
+  <testcase name="testInstancesWithResourceType" classname="com.netflix.simianarmy.aws.janitor.crawler.TestInstanceJanitorCrawler" time="0.005"/>
+  <testcase name="testResourceTypes" classname="com.netflix.simianarmy.aws.janitor.crawler.TestInstanceJanitorCrawler" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

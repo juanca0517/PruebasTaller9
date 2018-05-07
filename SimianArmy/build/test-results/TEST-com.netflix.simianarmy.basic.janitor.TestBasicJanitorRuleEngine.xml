@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:49" hostname="LAPTOP-4S0PNSIP" time="0.007">
+  <properties/>
+  <testcase name="testAllValid" classname="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" time="0.001"/>
+  <testcase name="testEmptyRuleSet" classname="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" time="0.001"/>
+  <testcase name="testIsValidWithNearestTerminationTime" classname="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" time="0.002"/>
+  <testcase name="testMixed" classname="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" time="0.001"/>
+  <testcase name="testWithExclusionRuleMatch1" classname="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" time="0.0"/>
+  <testcase name="testWithExclusionRuleMatch2" classname="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" time="0.001"/>
+  <testcase name="testWithExclusionRuleNotMatch1" classname="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" time="0.0"/>
+  <testcase name="testWithExclusionRuleNotMatch2" classname="com.netflix.simianarmy.basic.janitor.TestBasicJanitorRuleEngine" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

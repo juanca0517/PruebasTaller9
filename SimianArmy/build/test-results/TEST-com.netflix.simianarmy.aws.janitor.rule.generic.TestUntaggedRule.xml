@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:51" hostname="LAPTOP-4S0PNSIP" time="0.018">
+  <properties/>
+  <testcase name="testResourceWithExpectedTerminationTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.002"/>
+  <testcase name="testTaggedInstance" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.0"/>
+  <testcase name="testUntaggedInstanceWithOwner" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.004"/>
+  <testcase name="testUntaggedInstanceWithoutOwner" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.004"/>
+  <testcase name="testUntaggedResource" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.004"/>
+  <system-out><![CDATA[2018-05-06 01:16:51.734 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource i-12345678901234567  does not have the required tag tag1
+2018-05-06 01:16:51.739 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource i-12345678901234567  does not have the required tag tag2
+2018-05-06 01:16:51.742 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource i-12345678901234567  does not have the required tag tag2
+2018-05-06 01:16:51.747 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource ami-123123  does not have the required tag tag1
+2018-05-06 01:16:51.748 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource my-cool-asg  does not have the required tag tag1
+2018-05-06 01:16:51.749 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource snap-12345678901234567  does not have the required tag tag1
+2018-05-06 01:16:51.750 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource my-cool-launch-configuration  does not have the required tag tag1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.TestBasicConfiguration" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:31" hostname="LAPTOP-4S0PNSIP" time="0.097">
+  <properties/>
+  <testcase name="testGetBool" classname="com.netflix.simianarmy.basic.TestBasicConfiguration" time="0.095"/>
+  <testcase name="testGetBoolOrElse" classname="com.netflix.simianarmy.basic.TestBasicConfiguration" time="0.0"/>
+  <testcase name="testGetNumOrElse" classname="com.netflix.simianarmy.basic.TestBasicConfiguration" time="0.001"/>
+  <testcase name="testGetStr" classname="com.netflix.simianarmy.basic.TestBasicConfiguration" time="0.0"/>
+  <testcase name="testGetStrOrElse" classname="com.netflix.simianarmy.basic.TestBasicConfiguration" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

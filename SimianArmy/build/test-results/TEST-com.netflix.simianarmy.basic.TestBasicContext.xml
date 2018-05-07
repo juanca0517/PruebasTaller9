@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.TestBasicContext" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:31" hostname="LAPTOP-4S0PNSIP" time="18.189">
+  <properties/>
+  <testcase name="testContext" classname="com.netflix.simianarmy.basic.TestBasicContext" time="2.362"/>
+  <testcase name="testIsAbleToUseProxyByConfiguration" classname="com.netflix.simianarmy.basic.TestBasicContext" time="6.248"/>
+  <testcase name="testIsNotSafeToLogProperty" classname="com.netflix.simianarmy.basic.TestBasicContext" time="2.338"/>
+  <testcase name="testIsNotSafeToLogVsphereProperty" classname="com.netflix.simianarmy.basic.TestBasicContext" time="2.346"/>
+  <testcase name="testIsNotUsingProxyByDefault" classname="com.netflix.simianarmy.basic.TestBasicContext" time="2.551"/>
+  <testcase name="testIsSafeToLogProperty" classname="com.netflix.simianarmy.basic.TestBasicContext" time="2.342"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

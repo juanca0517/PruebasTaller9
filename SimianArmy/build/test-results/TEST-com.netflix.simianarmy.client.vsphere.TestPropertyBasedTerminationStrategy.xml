@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.client.vsphere.TestPropertyBasedTerminationStrategy" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:51" hostname="LAPTOP-4S0PNSIP" time="0.013">
+  <properties/>
+  <testcase name="shouldReturnConfiguredPropertyNameAndValueAfterConstructedFromConfig" classname="com.netflix.simianarmy.client.vsphere.TestPropertyBasedTerminationStrategy" time="0.006"/>
+  <testcase name="shouldSetPropertyAndResetVirtualMachineAfterTermination" classname="com.netflix.simianarmy.client.vsphere.TestPropertyBasedTerminationStrategy" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

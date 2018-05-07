@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-05-06T06:16:50" hostname="LAPTOP-4S0PNSIP" time="0.04">
+  <properties/>
+  <testcase name="testResource" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.015"/>
+  <testcase name="testTerminateNow" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.007"/>
+  <testcase name="testTerminateNowBadEventType" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.003"/>
+  <testcase name="testTerminateNowBadGroupNotExist" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.003"/>
+  <testcase name="testTerminateNowBadInput" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.004"/>
+  <testcase name="testTerminateNowDisabled" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
